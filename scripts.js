@@ -1,26 +1,53 @@
 
- let name = 'Bence';
-console.log(name + "'s apples")
-console.log('Hello world')
+// this is inlince comment, the browser will ignore it //
+ /* tihi is a multiline comment the browsr will ignotre the whole block */
+
+
+let variable;
+let otherVariable;
+let myVariable = 5;
+
+let myBoolean = true
+let myOtherBoolean = false
+
+let result = true && true;
+let result2 = true && false;
+let result = true || true;
+let result2 = true || false;
+let result3 = false || false || true || false;
+let result4 = false || false;
+
+let myAge
+myAge= 30
+
+
+
+
+
+
+
+
+
+let name = 'Bence';
+console.log(name + "'s apples");
+console.log('Hello world');
 
 $('h1').text('We are having a break 10 minute break until 17:05');
 
+$('p').text('StayATHome Coding Camp');
+
+$('stronG').css('background','lime');
+$('stronG').css('pedding','10px');
+
+$('h2').toggleClass('blue');
+$('h2').toggleClass('blue');
+
+$('ul').append('<Li>My name is ' + name + '</li>');
+
+$('Add-button').click( )
 
 
-//{}
-
-
-
-// This is a multiline Javascript comment /*
-
-This is multiline Javascript comment. 
-
-*/
-
-
-// $This is the first part: 
-
-/*
+//!-->
 12+3
 15
 let age
@@ -143,5 +170,3 @@ person.favouriteColors= ['lime','green']
 (2) ["lime", "green"]
 person
 {name: "Bence", age: 30, oldEnoughToDrive: true, favouriteColors: Array(2)}
-
-//
